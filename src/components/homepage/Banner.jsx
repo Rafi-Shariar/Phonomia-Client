@@ -11,7 +11,8 @@ import "swiper/css";
 
 const Banner = () => {
   return (
-    <section className="grid grid-cols-12 gap-4 h-[40vh] md:h-[50vh] px-2 lg:px-1 pt-2 md:pt-6">
+    <section className="grid grid-cols-12 gap-4 px-2 lg:px-1 pt-2 md:pt-6">
+      {/* //Left column */}
       <section className="hidden md:grid col-span-3 grid-rows-5 gap-4">
         <div className="row-span-2  rounded-lg overflow-hidden">
           <img src={image1} alt="" className="w-full h-full object-cover" />
@@ -22,7 +23,8 @@ const Banner = () => {
         </div>
       </section>
 
-      <section className="col-span-12 md:col-span-6 rounded-lg overflow-hidden h-full">
+      {/* middle */}
+      <section className="col-span-12 md:col-span-6 rounded-lg overflow-hidden h-full ">
         <Swiper
           modules={[Autoplay]}
           autoplay={{ delay: 2500, disableOnInteraction: false }}
@@ -40,7 +42,8 @@ const Banner = () => {
           </SwiperSlide>
         </Swiper>
       </section>
-
+      
+      {/* Right */}
       <section className="hidden md:block col-span-3 rounded-lg overflow-hidden h-full">
         <img src={image6} alt="" className="w-full h-full object-cover" />
       </section>
