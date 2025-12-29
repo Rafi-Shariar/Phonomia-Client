@@ -10,18 +10,18 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const links = (
-    <>
-      <NavLink to="/brands" className="block py-3">
+    < >
+      <NavLink to="/brands" className="block py-3 hover:text-orange-400">
         <IoMdPhonePortrait className="inline mr-2" />
         Brands
       </NavLink>
 
-      <NavLink to="/compare" className="block py-3">
+      <NavLink to="/compare" className="block py-3 hover:text-orange-400">
         <MdOutlineCompareArrows className="inline mr-2" />
         Compare
       </NavLink>
 
-      <NavLink to="/store" className="block py-3">
+      <NavLink to="/store" className="block py-3 hover:text-orange-400">
         <FaStore className="inline mr-2" />
         Store
       </NavLink>
@@ -42,7 +42,7 @@ const Navbar = () => {
           {/* DESKTOP MENU */}
           <div className="hidden md:flex items-center space-x-10 text-lg">
             {links}
-            <IoCartSharp size={28} />
+            <IoCartSharp size={28} className='hover:text-orange-400'/>
           </div>
 
           {/* MOBILE MENU */}
