@@ -3,6 +3,7 @@ import Banner from '../../components/homepage/Banner';
 import Features from '../../components/homepage/Features';
 import SearchBar from '../../components/homepage/SearchBar';
 import TopSellingContainer from '../../components/homepage/TopSellingContainer';
+import BrandsLogoContainer from '../../components/homepage/BrandsLogoContainer';
 
 const Homepage = () => {
     return (
@@ -11,6 +12,7 @@ const Homepage = () => {
             <Features></Features>
             <SearchBar></SearchBar>
             <TopSellingContainer></TopSellingContainer>
+            <BrandsLogoContainer></BrandsLogoContainer>
         </div>
     );
 };
