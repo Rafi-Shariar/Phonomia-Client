@@ -4,6 +4,7 @@ import Features from '../../components/homepage/Features';
 import SearchBar from '../../components/homepage/SearchBar';
 import TopSellingContainer from '../../components/homepage/TopSellingContainer';
 import BrandsLogoContainer from '../../components/homepage/BrandsLogoContainer';
+import ReviewContainer from '../../components/homepage/ReviewContainer';
 
 const Homepage = () => {
     return (
@@ -13,6 +14,7 @@ const Homepage = () => {
             <SearchBar></SearchBar>
             <TopSellingContainer></TopSellingContainer>
             <BrandsLogoContainer></BrandsLogoContainer>
+            <ReviewContainer></ReviewContainer>
         </div>
     );
 };

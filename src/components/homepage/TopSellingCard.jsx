@@ -5,7 +5,7 @@ const TopSellingCard = () => {
   return (
     // todo: convert the whole card as link
     <div className="">
-      <div className="card border border-slate-400 shadow-sm rounded-xl">
+      <div className="card border border-slate-300 shadow-sm rounded-xl">
         <figure className="h-44 md:h-54 w-full overflow-hidden rounded-t-xl">
           <img
             src={Img}
