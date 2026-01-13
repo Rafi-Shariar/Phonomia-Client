@@ -5,6 +5,7 @@ import SearchBar from '../../components/homepage/SearchBar';
 import TopSellingContainer from '../../components/homepage/TopSellingContainer';
 import BrandsLogoContainer from '../../components/homepage/BrandsLogoContainer';
 import ReviewContainer from '../../components/homepage/ReviewContainer';
+import FaqContainer from '../../components/homepage/faqContainer';
 
 const Homepage = () => {
     return (
